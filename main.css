@@ -1,0 +1,68 @@
+/* Robbert Van der Grift
+  student#: 200326832
+  date: sept 24, 2016
+==========================*/
+/* add fonts from google fonts*/
+@import 'https://fonts.googleapis.com/css?family=Lalezar|Open+Sans';
+/*Body styles*/
+body {
+  width: 100% ;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+/* main styles */
+main {
+  width: 90vw;
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1 , h3 {
+  font-family: 'Lalezar', cursive;
+}
+/* list of item styles */
+figure {
+  width: 80vw;
+  max-width: 480px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 80vw;
+  max-width: 480px;
+}
+figcaption {
+  padding: 10px;
+}
+.container {
+  width: 100% ;
+  height: 100%;
+  margin-top: -10px;
+  background-color: rgba(0,0,0,.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+}
+.popup {
+  max-height: 700px;
+  width: 80vw;
+  max-width: 700px;
+  background: #fff;
+  position: fixed;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.popup p {
+  padding: 10px;
+}
